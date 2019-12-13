@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Yesteryear&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .app, main {
+    height: 100%;
+}
+
+.brand-logo {
+    font-family: 'Yesteryear', cursive;
+}
+
+li i.material-icons {
+    font-size: 35px !important;
+    width: 56px;
+    text-align: center;
+    /*padding: 0px 10px 0px 10px;*/
+    margin-right: 10px;
+}
+
+.large-btn {
+    background-color: #1db954;
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 25px;
+    padding: 16px 24px 16px 24px;
+    height: auto;
+}
+
+.nav-wrapper {
+    background-color: #1db954;
+}
+
+

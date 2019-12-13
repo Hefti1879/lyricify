@@ -1,0 +1,9 @@
+node_modules
+plugins
+simulation
+platforms/browser
+platforms/android/app/build
+hooks
+platforms/android/CordovaLib
+platforms/android/.gradle
+

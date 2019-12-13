@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="../css/history.css">
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="center brand-logo">Lyricify</a>
+        <ul class="left">
+            <li class="menu btnBack"><i class="large material-icons">arrow_back</i></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <h2>Verlauf</h2>
+    <div id="historyContainer">
+    </div>
+    <div id="historyTemplate">
+        <div class="historyItem row" id="historyItem_{{id}}">
+            <div class="col s2 pic">
+                <img id="img{{id}}" src="..//img/no-cover.png" alt="" class="circle responsive-img">
+            </div>
+            <div class="col s8">
+                <p><b>{{songname}}</b><br>{{artist}} ⋅ {{album}}</p>
+            </div>
+            <div class="col s2">
+                <a id="btnDetails{{id}}" class="btnDetails small material-icons">arrow_forward</a>
+            </div>
+            <div class="col s2">
+                <a id="btnDelete{{id}}" class="btnDelete small material-icons">delete</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>

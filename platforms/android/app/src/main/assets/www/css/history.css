@@ -1,0 +1,43 @@
+h2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+
+.brand-logo {
+    font-size: 40px !important;
+}
+
+.historyItem {
+    padding-left: 5%;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+img {
+    margin-top: 1px;
+}
+
+.historyItem:nth-child(even){
+    background-color: #DDD;
+}
+
+col {
+    height: 100% !important;
+}
+
+.btnDetails {
+    color: #1db954;
+}
+
+.btnDelete {
+    color: red;
+    display: none;
+}
+
+a {
+    font-size: 30px !important;
+    padding-top: 7px;
+}
